@@ -5,7 +5,13 @@
  * then off for one second, repeatedly.
  */
 #include "Arduino.h"
-#include "PubSubClient.h"
+#include <ESP8266mDNS.h>
+#include <WiFiUdp.h>
+#include <ArduinoOTA.h>
+#include <ESP8266WiFi.h>
+#include <PubSubClient.h>
+#include <math.h>
+#include <ArduinoJson.h>
 // Set LED_BUILTIN if it is not defined by Arduino framework
 // #define LED_BUILTIN 13
 
